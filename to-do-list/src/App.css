@@ -1,0 +1,24 @@
+.screen{
+  position: absolute;
+  display: flex;
+  background-color: #8758FF;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
+}
+.view{
+  display: flex;
+  position: fixed;
+  background-color: #1E123B;
+  height: 495.36px;
+  width: 743.81px;
+  border-radius: 8px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+

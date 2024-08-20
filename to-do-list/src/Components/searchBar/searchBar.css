@@ -1,0 +1,20 @@
+.search{
+    display: flex;
+    height: 42px;
+    width: 308px;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left:10px ;
+    border: 1px solid white;
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+    margin-top: 114px;
+}
+.search span{
+    font-size: 15px;
+}
+.search img{
+    height: 18px;
+    width: 18px;
+}

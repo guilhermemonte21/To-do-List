@@ -1,0 +1,12 @@
+.btn{
+    position: fixed;
+    display: flex;
+    height: 49.38px;
+    width: 201.38px;
+    border: 1px solid white;
+    border-radius: 8px;
+   
+    
+    color: white;
+    
+}
