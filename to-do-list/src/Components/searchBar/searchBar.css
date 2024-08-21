@@ -9,12 +9,17 @@
     border-radius: 8px;
     align-items: center;
     color: white;
-    margin-top: 114px;
+    margin-top: 26px;
+    background-color: #1E123B;
+    
+    
 }
-.search span{
-    font-size: 15px;
+.search ::placeholder{
+    justify-content: end;
+    color: aliceblue;
 }
-.search img{
+
+.search icon{
     height: 18px;
     width: 18px;
 }

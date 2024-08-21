@@ -1,12 +1,15 @@
 .btn{
-    position: fixed;
+    
     display: flex;
     height: 49.38px;
     width: 201.38px;
     border: 1px solid white;
     border-radius: 8px;
-   
-    
+   align-items: center;
+   justify-content: center;
+    margin-bottom: -40px;
     color: white;
-    
+    margin-left: 540px;
+    margin-top: 15px;
+    background-color: #6C45CE;
 }

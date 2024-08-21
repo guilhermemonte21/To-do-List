@@ -1,0 +1,28 @@
+.input{
+    display: flex;
+    width: 674.37px;
+    height: 61.73px;
+    background-color: #FCFCFC;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.input input{
+    height: 27px;
+    width: 27px;
+    margin-left: 15px;
+}
+.buttons{
+    justify-content: flex-end;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+.click{
+    height: 27px;
+    width: 27px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+}
