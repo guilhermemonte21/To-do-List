@@ -4,6 +4,8 @@ import Button from './Components/Button/Button';
 import Input from './Components/Input/Input';
 import { FaMagnifyingGlass } from "react-icons/fa6"
 import SearchBar from './Components/searchBar/searchBar';
+import Modal from './Components/Modal/Modal';
+import { useState } from 'react';
 
 function App() {
   const dataAtualExtenso = new Date().toLocaleString("pt-BR", {
@@ -11,6 +13,7 @@ function App() {
     day: "numeric",
     month: "long",
   });
+  const [showModal, setShowModal] = useState(false);
 
   
 
@@ -30,9 +33,13 @@ function App() {
     </div>
     
     </div>
-    <Button/>
-    </div>
-    
+    <Button onClick={() => setShowModal(true)}/>
+    {showModal ? (
+                                <Modal onClose={() => { setShowModal(false) }}>  </Modal>
+                            ): null}
+
+
+</div>
   );
 }
 export default App;

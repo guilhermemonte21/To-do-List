@@ -1,0 +1,19 @@
+.Modal{
+    width: 914px;
+    height: 472px;
+    background-color: #1E123B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ModalInput{
+    height: 177px;
+    width: 577px;
+    background-color: #1E123B;
+}
+.ModalButton{
+    background-color: #6C45CE;
+    height: 64px;
+    width: 322px;
+}
